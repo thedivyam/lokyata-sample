@@ -36,7 +36,7 @@ const Body = () => {
     <div className={cls.base}>
       <div className={cls.links}>
         <div style={{ marginRight: 8.5, height: 18 }}>
-          <Image src={homeIcon} width={18} height={18} />
+          <Image src={homeIcon} width={18} height={18} alt='' />
         </div>
         <span style={{ color: '#F2F2F2', marginRight: 4 }}>/</span>
         <span style={{ color: '#1BADFA', marginRight: 4 }}>Reports </span>
@@ -44,7 +44,7 @@ const Body = () => {
       </div>
       <div className={cls.heading}>
         <span style={{ marginRight: 10.5 }}>Summary</span>
-        <Image src={infoIcon} />
+        <Image src={infoIcon} alt='' />
       </div>
       <div className={cls.cards}>
         <div className={cls.card}>
@@ -106,7 +106,7 @@ const Body = () => {
                 alignItems: 'center',
               }}
             >
-              <Image src={chevronBlueIcon} width={14} height={14} />
+              <Image src={chevronBlueIcon} width={14} height={14} alt='' />
             </div>
           }
         >{`Bi-Weekly`}</Button>
@@ -116,7 +116,7 @@ const Body = () => {
       </div>
       <div className={cls.heading} style={{ marginBottom: 9 }}>
         <span style={{ marginRight: 10.5 }}>Analytics</span>
-        <Image src={infoIcon} />
+        <Image src={infoIcon} alt='' />
       </div>
       <div className={cls.chartContainer}>
         <div className={cls.chartRow}>
@@ -231,7 +231,7 @@ const Body = () => {
       </div>
       <div className={cls.heading} style={{ marginBottom: 9, marginTop: 12 }}>
         <span style={{ marginRight: 10.5 }}>Expenses</span>
-        <Image src={infoIcon} />
+        <Image src={infoIcon} alt='' />
       </div>
       <div className={cls.chartRow}>
         <ResponsiveContainer

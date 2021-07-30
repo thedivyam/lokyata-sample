@@ -1,5 +1,6 @@
 import React from 'react';
 import cls from './SideNavigation.module.scss';
+import logo from '../../public/logo.png'
 import pieIcon from '../../public/pie-chart.svg';
 import newFileIcon from '../../public/newfile.png';
 import chevronDownIcon from '../../public/chevron-down.png';
@@ -13,7 +14,8 @@ const SideNavigation = () => {
     <div className={cls.base}>
       <div style={{ justifySelf: 'flex-start' }}>
         <div className={cls.logoContainer}>
-          <img className={cls.logo} src='./logo.png' />
+          {/* <Image className={cls.logo} src='./logo.png' alt='' /> */}
+          <Image src={logo} alt='' />
         </div>
         <div className={cls.organisationWrapper}>
           <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -26,9 +28,9 @@ const SideNavigation = () => {
               Default Org.
             </span>
           </div>
-            <div style={{ paddingRight: 9, height: 15 }}>
-              <Image src={chevronDownIcon} width={15} height={15} />
-            </div>
+          <div style={{ paddingRight: 9, height: 15 }}>
+            <Image src={chevronDownIcon} width={15} height={15} alt='' />
+          </div>
         </div>
         <span
           style={{
@@ -50,18 +52,26 @@ const SideNavigation = () => {
                 alignItems: 'center',
               }}
             >
-              <Image src={pieIcon} />
+              <Image src={pieIcon} alt='' />
             </div>
             <span>Overview</span>
           </div>
           <div className={cls.reports}>
-            <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
               <div style={{ paddingRight: 18, height: 18 }}>
-                <Image src={newFileIcon} width={18} height={18}/>
+                <Image src={newFileIcon} width={18} height={18} alt='' />
               </div>
               <span>Reports</span>
             </div>
-            <div style={{ paddingRight: 12, height: 15, display: 'flex' }}><Image src={plusIcon} height={15} width={15}/></div>
+            <div style={{ paddingRight: 12, height: 15, display: 'flex' }}>
+              <Image src={plusIcon} height={15} width={15} alt='' />
+            </div>
           </div>
         </div>
       </div>
@@ -74,7 +84,7 @@ const SideNavigation = () => {
               alignItems: 'center',
             }}
           >
-            <Image src={atIcon} width={20} height={20}/>
+            <Image src={atIcon} width={20} height={20} alt='' />
           </div>
           <span>Support</span>
         </div>

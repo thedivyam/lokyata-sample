@@ -8,7 +8,7 @@ const DetailSidebar = () => {
   return (
     <div className={cls.base}>
       <div className={cls.headingWrapper}>
-        <Image src={leftArrowIcon} width={22} height={22} />
+        <Image src={leftArrowIcon} width={22} height={22} alt='' />
         <span className={cls.mainHeading}>ANJPV5070F</span>
       </div>
       <div className={cls.subHeading}>
@@ -20,7 +20,7 @@ const DetailSidebar = () => {
       <div className={cls.sectionTitle}>
         <span>LEAD DETAILS</span>
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <Image src={okIcon} width={12} height={12} />
+          <Image src={okIcon} width={12} height={12} alt='' />
           <span
             style={{ color: '#0DBC8D', marginLeft: 4.75, letterSpacing: 0 }}
           >

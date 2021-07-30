@@ -27,7 +27,7 @@ const Header = () => {
                   alignItems: 'center',
                 }}
               >
-                <Image src={downChevronIcon} width={14} height={14} />
+                <Image src={downChevronIcon} width={14} height={14} alt='' />
               </div>
             }
           >
@@ -46,7 +46,7 @@ const Header = () => {
                   alignItems: 'center',
                 }}
               >
-                <Image src={shareIcon} width={20} height={20} />
+                <Image src={shareIcon} width={20} height={20} alt='' />
               </div>
             }
           >
@@ -65,7 +65,7 @@ const Header = () => {
                   alignItems: 'center',
                 }}
               >
-                <Image src={printIcon} width={20} height={20} />
+                <Image src={printIcon} width={20} height={20} alt='' />
               </div>
             }
           >
