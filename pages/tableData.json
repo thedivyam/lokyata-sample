@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "date": "03/29/21 - 06/25/21",
+    "debits": "$10,092",
+    "credits": "$8,861",
+    "cashflow": "-$1,231",
+    "income": "$797",
+    "loanpayments": "$620",
+    "balance": "$381",
+    "nsf": 3
+  },
+  {
+    "id": 2,
+    "date": "06/21/21 - 06/20/21",
+    "debits": "$24",
+    "credits": "$0.0",
+    "cashflow": "-$24",
+    "income": "$0.0",
+    "loanpayments": "$0.0",
+    "balance": "-$204",
+    "nsf": 1
+  },
+  {
+    "id": 3,
+    "date": "06/07/21 - 06/20/21",
+    "debits": "$1,151",
+    "credits": "$926",
+    "cashflow": "-$225",
+    "income": "$0.0",
+    "loanpayments": "$161",
+    "balance": "-$25",
+    "nsf": 1
+  },
+  {
+    "id": 4,
+    "date": "05/24/21 - 06/06/21",
+    "debits": "$1,151",
+    "credits": "$926",
+    "cashflow": "-$225",
+    "income": "$0.0",
+    "loanpayments": "$161",
+    "balance": "-$25",
+    "nsf": 1
+  }
+]

@@ -1,0 +1,85 @@
+.base{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding-left: 18px;
+  padding-right: 24px;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 13.35px;
+  margin-bottom: 33px;
+  span{
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+.heading{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #404040;
+  margin-bottom: 12px;
+}
+
+.cards{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  :last-child{
+    margin-right: 0;
+  }
+}
+
+.table{
+  margin-bottom: 24px;
+}
+
+.card{
+  width: 100%;
+  margin-right: 18px;
+}
+
+.chartRow{
+  display: flex;
+  width: 100%;
+  margin-bottom: 12px;
+  :last-child{
+    margin-right: 0px;
+  }
+}
+
+.chartContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.chartWrapper{
+  margin-right: 19px;
+  border: 1px solid #F2F2F2;
+  border-radius: 8px;
+  font-size: 12px; 
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  ul{
+    margin-bottom: 20px !important;
+  }
+}
+
+.pieContainer{
+  ul{
+    font-size: 16px;
+    margin-right: 60px !important;
+  }
+}
+
+.emptyChart{
+  border: none;
+}

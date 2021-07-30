@@ -1,0 +1,32 @@
+.base{
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #F2F2F2;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+.base thead{
+  background: #F2F2F2;
+  border-color: #F2F2F2;
+}
+
+.base th{
+  padding: 8px 0px;
+  padding-left: 14px;
+}
+
+.base td{
+  padding: 8px 0px;
+  padding-left: 14px;
+  color: #7F7F7F;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.base tbody tr{
+  border-bottom: 1px solid #F2F2F2;
+  &:last-child{
+    border: none;
+  }
+}

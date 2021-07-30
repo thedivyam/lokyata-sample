@@ -1,0 +1,36 @@
+.base{
+  display: flex;
+  height: 62px;
+  width: 100%;
+  box-shadow: 0px 1px 5px #00A1F529;
+  padding: 0 24px 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabTitle{
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 800;
+  height: 100%;
+}
+
+.activeTab{
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #1BADFA;
+  height: 100%;
+  margin-right: 32px;
+}
+
+.buttons{
+  display: flex;
+  :last-child{
+    margin-right: 0;
+  }
+}
+
+.button{
+  margin-right: 3px;
+}

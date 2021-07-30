@@ -1,0 +1,51 @@
+$primaryColor: #1BADFA;
+$successColor: #0DBC8D;
+$primaryBackground: #F3FBFF;
+$successBackground: #E6F8F3;
+$buttonHeight: 35px;
+$buttonBorderRadius: 48px;
+
+.base{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 24px;
+  height: $buttonHeight;
+  background: $primaryColor;
+  color: #fff;
+  width: min-content;
+  border-radius: $buttonBorderRadius;
+}
+
+.success {
+  background: $successBackground;
+}
+
+.primary{
+  background: $primaryBackground;
+}
+
+.iconLeft{
+  margin-right: 6px;
+}
+.iconRight{
+  margin-left: 6px;
+}
+
+.contentPrimary{
+  color: $primaryColor;
+}
+
+.content{
+  color: #fff;
+}
+
+.contentSuccess{
+  color: $successColor;
+}
+
+.contentBase{
+  width: max-content;  
+  font-weight: 700;
+  font-size: 14px;
+}
